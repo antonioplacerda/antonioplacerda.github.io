@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Docker Commands - Hey Mom, I&#39;m learning new things!</title>
+  <meta name="description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.">
+  <meta name="author" content="Antonio P. Lacerda"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Hey Mom, I\x27m learning new things!",
+    
+    "url": "https:\/\/blog.placerda.pt"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/blog.placerda.pt"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/blog.placerda.pt",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/blog.placerda.pt\/code\/snippets\/20191024-docker-commands\/",
+          "name": "Docker commands"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Antonio P. Lacerda"
+  },
+  "headline": "Docker Commands",
+  "description" : "This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!\nGeneral  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.",
+  "inLanguage" : "en",
+  "wordCount":  1003 ,
+  "datePublished" : "2019-10-24T22:24:31",
+  "dateModified" : "2019-10-24T22:24:31",
+  "image" : "https:\/\/blog.placerda.pt\/img\/9343926.jpeg",
+  "keywords" : [ "docker, tips" ],
+  "mainEntityOfPage" : "https:\/\/blog.placerda.pt\/code\/snippets\/20191024-docker-commands\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/blog.placerda.pt",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/blog.placerda.pt\/img\/9343926.jpeg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Docker Commands" />
+<meta property="og:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.">
+<meta property="og:image" content="https://blog.placerda.pt/img/9343926.jpeg" />
+<meta property="og:url" content="https://blog.placerda.pt/code/snippets/20191024-docker-commands/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Hey Mom, I&#39;m learning new things!" />
+
+  <meta name="twitter:title" content="Docker Commands" />
+  <meta name="twitter:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to …">
+  <meta name="twitter:image" content="https://blog.placerda.pt/img/9343926.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_antoniolacerda" />
+  <meta name="twitter:creator" content="@_antoniolacerda" />
+  <link href='https://blog.placerda.pt/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.64.0" />
+  <link rel="alternate" href="https://blog.placerda.pt/index.xml" type="application/rss+xml" title="Hey Mom, I&#39;m learning new things!"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://blog.placerda.pt/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://blog.placerda.pt/css/highlight.min.css" /><link rel="stylesheet" href="https://blog.placerda.pt/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://blog.placerda.pt">Hey Mom, I&#39;m learning new things!</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Code" href="/code">Code</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/about">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="tutorial-heading">
+              
+                <h1>Docker Commands</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!</p>
+<h2 id="general">General</h2>
+<ul>
+<li><strong>docker version</strong> - if any error here, docker is probably not running. If on linux, do a sudo</li>
+<li><strong>docker info</strong> - a lot more info about the docker installation</li>
+</ul>
+<h2 id="containers">Containers</h2>
+<ul>
+<li><strong>docker container run IMAGE</strong> - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub. If not connected to the internet and one does not have the image locally, well you should not live in the cave ages. The docker container run always ends with the image name if no command is passed. The version of the image can be specified here, using image:version. It defaults to image:latest. It will give it a virtual IP on a private network, named bridge, inside docker engine. It will open up port 80 on host and will forward all traffic to port 80 in the container.</li>
+<li><strong>docker container run &ndash;publish,-p xx:yy IMAGE</strong> - it redirects routing from the port xx of your host to the port yy of the container</li>
+<li><strong>docker container run &ndash;detach,-d IMAGE</strong> - keeps the container running detaching it from the terminal session</li>
+<li><strong>docker container run &ndash;name CONTAINER IMAGE</strong> - creates a container with the specified container_name</li>
+<li><strong>docker container run &ndash;rm IMAGE</strong> - runs a container and deletes it afterwards</li>
+<li><strong>docker container run &ndash;env,-e ENV_LIST IMAGE</strong> - sets environment variables to pass to the container</li>
+<li><strong>docker container run &ndash;network NETWORK IMAGE</strong> - it will create the container on the specified network. It will default to the network bridge</li>
+<li><strong>docker container run &ndash;volume,-v NAMED_VOLUME:VOLUME IMAGE</strong> - it will bind mount a volume with the specified name. if the named volume start with a forward slash, it will map to the specified path on the host. if $(pwd) is used, it will map to the current working directory</li>
+</ul>
+<hr>
+<ul>
+<li><strong>docker container run -it CONTAINER bash</strong> - simulates a real terminal to interact with the container. This way, when we exit the bash, the container will stop because the container only runs as long as the command that it ran on startup runs.</li>
+<li><strong>docker container exec -it CONTAINER bash</strong> - simulates a real terminal to interact with the running container. This way, the container will keep running once this process is exited</li>
+<li><strong>docker container stop CONTAINER [CONTAINER&hellip;]</strong> - stops a running container</li>
+</ul>
+<hr>
+<ul>
+<li><strong>docker container ls (docker ps)</strong> - lists all the running containers</li>
+<li><strong>docker container ls -a (docker ps -a)</strong> - lists all existing containers, even the non-running ones</li>
+<li><strong>docker container rm CONTAINER [CONTAINER&hellip;]</strong> - deletes the specified containers. Here, the full uid can be passed or the first 3 letters of the uid since it’s all it takes for it to be unique, or the container name. If no name was specified, it can be found doing a docker container ls -a. A running container cannot be deleted this way.</li>
+<li><strong>docker container rm -f,&ndash;force CONTAINER [CONTAINER&hellip;]</strong> - Since a running container cannot be deleted the usual way, the force option must be passed</li>
+<li><strong>docker container logs CONTAINER</strong> - see the logs of the container</li>
+<li><strong>docker container logs -f CONTAINER</strong> - see the logs of the container and keeps following it. ctrl+c to exit</li>
+<li><strong>docker container top CONTAINER</strong> - display the running processes of a container</li>
+<li><strong>docker container inspect CONTAINER [CONTAINER&hellip;]</strong> - shows detailed information of the containers specified. It doesn&rsquo;t tell anything about the active container and what it&rsquo;s doing</li>
+<li><strong>docker container stats</strong> - shows a streaming view of live performance data about the running containers</li>
+</ul>
+<hr>
+<ul>
+<li><strong>docker container port CONTAINER</strong> - checks the routing from the host to the container</li>
+</ul>
+<h2 id="network">Network</h2>
+<ul>
+<li><strong>docker network ls</strong> - The network bridge, docker0 on older versions, is the default network that bridges through the NAT firewall to the physical network the host is connected to. By default, all containers will be in this network. The network named host is a special network that skips the virtual networking of docker and attaches the container directly to the host interface. This way, it gain performance but sacrifices security of the container model. The network named none is the equivalent of having an interface on your computer that is not attached to anything</li>
+<li><strong>docker network inspect NETWORK [NETWORK&hellip;]</strong> - inspects the specified networks, displaying detailed information on them. This is how to find out which container are in which network</li>
+<li><strong>docker network create NETWORK</strong> - spawns a new network and allows to attach containers to it</li>
+<li><strong>docker network connect NETWORK CONTAINER</strong> - connects the specified container to the specified network. A container may be connected to multiple networks</li>
+<li><strong>docker network disconnect NETWORK CONTAINER</strong> - disconnects the specified container from the specified network</li>
+</ul>
+<h2 id="images">Images</h2>
+<ul>
+<li><strong>docker image ls</strong> - lists all the images in the host</li>
+<li><strong>docker image rm  IMAGE [IMAGE&hellip;]</strong> - deletes the specified images. The full uid can be passed, or only the first 3 characters or the repository:tag</li>
+<li><strong>docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]</strong> - It defaults to latest if no tag is passed. The best name would be default instead of latest since latest is not always the latest version of the image</li>
+<li><strong>docker image push IMAGE</strong> - pushes the image to docker hub</li>
+<li><strong>docker image build -t,&ndash;tag TAG PATH | URL</strong> - builds an image with the specified tags, latest if none is supplied. A path to a dockerfile must be supplied</li>
+</ul>
+<h2 id="volumes">Volumes</h2>
+<ul>
+<li><strong>docker volume ls</strong> - lists all existing volumes</li>
+<li><strong>docker volume rm VOLUME [VOLUME&hellip;]</strong> - removes the specified volume</li>
+<li><strong>docker volume prune</strong> - removes all non used volumes</li>
+<li><strong>docker volume inspect VOLUME [VOLUME&hellip;]</strong> - the mount point is not accessible directly from the host if using a mac, since docker creates a tiny linux vm to run, so all this data will be stored there. there is a way to get there, but I haven&rsquo;t figured it out yet</li>
+<li><strong>docker volume create VOLUME</strong> -</li>
+</ul>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://blog.placerda.pt/tags/docker/">docker</a>&nbsp;
+            
+              <a href="https://blog.placerda.pt/tags/tips/">tips</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://blog.placerda.pt/code/snippets/20190706-diacritics/" data-toggle="tooltip" data-placement="top" title="Remove Diacritics">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:antonioplacerda@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/antonioplacerda" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/antonioplacerda" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fab fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_antoniolacerda" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/antonioplacerda/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://blog.placerda.pt/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="placerda.pt">Antonio P. Lacerda</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+
+          <a href="http://gohugo.io">Hugo v0.64.0</a> &nbsp;&bull;&nbsp; <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://blog.placerda.pt/js/main.js"></script>
+<script src="https://blog.placerda.pt/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://blog.placerda.pt/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+
