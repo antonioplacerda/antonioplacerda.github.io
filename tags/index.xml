@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hey Mom, I&#39;m learning new things!</title>
-    <link>https://blog.placerda.pt/tags/</link>
-    <description>Recent content in Tags on Hey Mom, I&#39;m learning new things!</description>
+    <title>Tags on My New Hugo Site</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>antonioplacerda@gmail.com (Antonio P. Lacerda)</managingEditor>
-    <webMaster>antonioplacerda@gmail.com (Antonio P. Lacerda)</webMaster>
-    <copyright>Everything is mine</copyright>
-    <lastBuildDate>Thu, 24 Oct 2019 22:24:31 +0100</lastBuildDate>
+    <language>en-us</language>
     
-	<atom:link href="https://blog.placerda.pt/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>docker</title>
-      <link>https://blog.placerda.pt/tags/docker/</link>
-      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
-      <author>antonioplacerda@gmail.com (Antonio P. Lacerda)</author>
-      <guid>https://blog.placerda.pt/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://blog.placerda.pt/tags/tips/</link>
-      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
-      <author>antonioplacerda@gmail.com (Antonio P. Lacerda)</author>
-      <guid>https://blog.placerda.pt/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>powershell</title>
-      <link>https://blog.placerda.pt/tags/powershell/</link>
-      <pubDate>Sat, 06 Jul 2019 09:45:53 +0100</pubDate>
-      <author>antonioplacerda@gmail.com (Antonio P. Lacerda)</author>
-      <guid>https://blog.placerda.pt/tags/powershell/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

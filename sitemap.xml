@@ -3,61 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.placerda.pt/tags/docker/</loc>
-    <lastmod>2019-10-24T22:24:31+01:00</lastmod>
+    <loc>http://example.org/categories/</loc>
   </url>
   
   <url>
-    <loc>https://blog.placerda.pt/code/snippets/20191024-docker-commands/</loc>
-    <lastmod>2019-10-24T22:24:31+01:00</lastmod>
+    <loc>http://example.org/</loc>
   </url>
   
   <url>
-    <loc>https://blog.placerda.pt/code/</loc>
-    <lastmod>2019-10-24T22:24:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/</loc>
-    <lastmod>2019-10-24T22:24:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/tags/</loc>
-    <lastmod>2019-10-24T22:24:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/tags/tips/</loc>
-    <lastmod>2019-10-24T22:24:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/tags/powershell/</loc>
-    <lastmod>2019-07-06T09:45:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/code/snippets/20190706-diacritics/</loc>
-    <lastmod>2019-07-06T09:45:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/post/20181016-hello/</loc>
-    <lastmod>2018-10-16T05:53:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/post/</loc>
-    <lastmod>2018-10-16T05:53:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.placerda.pt/categories/</loc>
+    <loc>http://example.org/tags/</loc>
   </url>
   
 </urlset>
