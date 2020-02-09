@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Overview of all pages with tags, ordered by tag - Antonio P Lacerda</title>
-  <meta name="description" content="A full overview of all pages with tags, ordered by tag, such as: tips, docker, and powershell">
+  <title>Remove Diacritics - Antonio P Lacerda</title>
+  <meta name="description" content="If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you&rsquo;ve written, then we are on the same boat. Although I love my language, portuguese, messing up with scripts is never a good way to make friends, so I often need to remove those annoying characters from sentences and every time I need to do so I go surf the web for the same answer.">
   <meta name="author" content="Antonio P. Lacerda"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -29,13 +29,63 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/placerda.pt",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/placerda.pt\/post\/20190706-diacritics\/",
+          "name": "Remove diacritics"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Antonio P. Lacerda"
+  },
+  "headline": "Remove Diacritics",
+  "description" : "If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you\x26rsquo;ve written, then we are on the same boat. Although I love my language, portuguese, messing up with scripts is never a good way to make friends, so I often need to remove those annoying characters from sentences and every time I need to do so I go surf the web for the same answer.",
+  "inLanguage" : "en",
+  "wordCount":  182 ,
+  "datePublished" : "2019-07-06T09:45:53",
+  "dateModified" : "2019-07-06T09:45:53",
+  "image" : "http:\/\/placerda.pt",
+  "keywords" : [ "powershell, tips" ],
+  "mainEntityOfPage" : "http:\/\/placerda.pt\/post\/20190706-diacritics\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/placerda.pt",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/placerda.pt",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Tags" />
-<meta property="og:url" content="http://placerda.pt/tags/" />
+<meta property="og:title" content="Remove Diacritics" />
+<meta property="og:description" content="If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you&rsquo;ve written, then we are on the same boat. Although I love my language, portuguese, messing up with scripts is never a good way to make friends, so I often need to remove those annoying characters from sentences and every time I need to do so I go surf the web for the same answer.">
+<meta property="og:url" content="http://placerda.pt/post/20190706-diacritics/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Antonio P Lacerda" />
 
-  <meta name="twitter:title" content="Tags" />
+  <meta name="twitter:title" content="Remove Diacritics" />
+  <meta name="twitter:description" content="If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you&rsquo;ve written, then we are on the same boat. Although I love my language, …">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@_antoniolacerda" />
   <meta name="twitter:creator" content="@_antoniolacerda" />
@@ -154,14 +204,31 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="tags-heading">
+              <div class="post-heading">
                 
-                  <h1>Tags</h1>
-                
-                
-                  <hr class="small">
+                  <h1>Remove Diacritics</h1>
                 
                 
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2019-07-06
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Antonio P. Lacerda
+    
+  
+  
+</span>
+
+
                 
               </div>
             </div>
@@ -173,88 +240,76 @@
 
 
     
-
-
-
 <div class="container" role="main">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
-    <article class="post-preview">
-      <div class="panel-group" id="accordion">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>If you ever faced the terror of finding a diacritic that messed up some of your
+regex, or some awesome script you&rsquo;ve written, then we are on the same boat.
+Although I love my language, portuguese, messing up with scripts is never a good
+way to make friends, so I often need to remove those annoying characters from
+sentences and every time I need to do so I go surf the web for the same answer.
+Well, here is my list of ways to remove diacritics in every language I needed.</p>
+<p>Please, keep in mind that I&rsquo;ve only needed a way to remove characters used in
+portuguese, so all of this tools work for portuguese and were not tested for any
+other language.</p>
+<h2 id="powershell">Powershell</h2>
+<p>When automating the creation of folders in powershell, I really needed some kind
+of tool to remove diacritics. This is
+<a href="https://lazywinadmin.com/2015/05/powershell-remove-diacritics-accents.html">where</a>
+I got this tip from.</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="k">function</span> <span class="nb">Remove-Diacritics</span> <span class="p">{</span>
+    <span class="k">PARAM</span> <span class="p">(</span><span class="no">[string]</span><span class="nv">$String</span><span class="p">)</span>
+
+    <span class="nv">$bytes</span> <span class="p">=</span> <span class="no">[Text.Encoding]</span><span class="p">::</span><span class="n">GetEncoding</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Cyrillic</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="nv">$String</span><span class="p">)</span>
+    <span class="no">[Text.Encoding]</span><span class="p">::</span><span class="n">ASCII</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="nv">$bytes</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div><h2 id="c">C#</h2>
+<p>This solution was very simple, it only needed some tunning of the powershell
+solution.</p>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="n">function</span> <span class="n">Remove</span><span class="p">-</span><span class="n">Diacritics</span>
+<span class="p">{</span>
+    <span class="n">PARAM</span> <span class="p">(</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="err">$</span><span class="n">String</span><span class="p">)</span>
+<span class="na">    [Text.Encoding]</span><span class="p">:</span><span class="p">:</span><span class="n">ASCII</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="p">[</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">]</span><span class="p">:</span><span class="p">:</span><span class="n">GetEncoding</span><span class="p">(</span><span class="s">&#34;Cyrillic&#34;</span><span class="p">)</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="err">$</span><span class="n">String</span><span class="p">)</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsetips" data-parent="#accordion">
-                <div class="panel-heading" id="headertips">
-                  <h4 class="panel-title">
-                      tips
-                    <span class="badge">2</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsetips" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="http://placerda.pt/tags/tips/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="http://placerda.pt/post/20191024-docker-commands/" class="list-group-item">Docker Commands</a>
-                  
-                    <a href="http://placerda.pt/post/20190706-diacritics/" class="list-group-item">Remove Diacritics</a>
-                  
-                </div>
-              </div>
-            </div>
+          <div class="blog-tags">
+            
+              <a href="http://placerda.pt/tags/powershell/">powershell</a>&nbsp;
+            
+              <a href="http://placerda.pt/tags/tips/">tips</a>&nbsp;
+            
           </div>
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsedocker" data-parent="#accordion">
-                <div class="panel-heading" id="headerdocker">
-                  <h4 class="panel-title">
-                      docker
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsedocker" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="http://placerda.pt/tags/docker/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="http://placerda.pt/post/20191024-docker-commands/" class="list-group-item">Docker Commands</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsepowershell" data-parent="#accordion">
-                <div class="panel-heading" id="headerpowershell">
-                  <h4 class="panel-title">
-                      powershell
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsepowershell" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="http://placerda.pt/tags/powershell/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="http://placerda.pt/post/20190706-diacritics/" class="list-group-item">Remove Diacritics</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+
         
-      </div>
-    </article>
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://placerda.pt/post/20181016-hello/" data-toggle="tooltip" data-placement="top" title="Hello, World">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="http://placerda.pt/post/20191024-docker-commands/" data-toggle="tooltip" data-placement="top" title="Docker Commands">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
   </div>
 </div>
-
-
 
       
 <footer>
@@ -297,7 +352,7 @@
               </li>
           
           <li>
-            <a href="/tags/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

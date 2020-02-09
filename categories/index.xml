@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Antonio P Lacerda</title>
+    <link>http://placerda.pt/categories/</link>
+    <description>Recent content in Categories on Antonio P Lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
+    <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
+    <copyright>Everything is mine</copyright>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://placerda.pt/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

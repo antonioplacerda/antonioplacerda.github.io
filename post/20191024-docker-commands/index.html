@@ -7,8 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>About me - Antonio P Lacerda</title>
-  <meta name="description" content="My name is Antonio, I am catholic, a developer and a black belt in taekwondo. I have a general interest in everything about tech and I am obsessed with productivity.">
+  <title>Docker Commands - Antonio P Lacerda</title>
+  <meta name="description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.">
   <meta name="author" content="Antonio P. Lacerda"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -44,8 +45,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/placerda.pt\/about\/",
-          "name": "About me"
+          "@id": "http:\/\/placerda.pt\/post\/20191024-docker-commands\/",
+          "name": "Docker commands"
         }
     }]
 }
@@ -56,15 +57,15 @@
   "author": {
     "name" : "Antonio P. Lacerda"
   },
-  "headline": "About me",
-  "description" : "My name is Antonio, I am catholic, a developer and a black belt in taekwondo. I have a general interest in everything about tech and I am obsessed with productivity.",
+  "headline": "Docker Commands",
+  "description" : "This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!\nGeneral  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.",
   "inLanguage" : "en",
-  "wordCount":  30 ,
-  "datePublished" : "0001-01-01T00:00:00",
-  "dateModified" : "0001-01-01T00:00:00",
+  "wordCount":  1003 ,
+  "datePublished" : "2019-10-24T22:24:31",
+  "dateModified" : "2019-10-24T22:24:31",
   "image" : "http:\/\/placerda.pt",
-  "keywords" : [ "" ],
-  "mainEntityOfPage" : "http:\/\/placerda.pt\/about\/",
+  "keywords" : [ "docker, tips" ],
+  "mainEntityOfPage" : "http:\/\/placerda.pt\/post\/20191024-docker-commands\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/placerda.pt",
@@ -78,14 +79,15 @@
 }
 </script>
 
-<meta property="og:title" content="About me" />
-<meta property="og:description" content="My name is Antonio, I am catholic, a developer and a black belt in taekwondo. I have a general interest in everything about tech and I am obsessed with productivity.">
-<meta property="og:url" content="http://placerda.pt/about/" />
+<meta property="og:title" content="Docker Commands" />
+<meta property="og:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.">
+<meta property="og:url" content="http://placerda.pt/post/20191024-docker-commands/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Antonio P Lacerda" />
 
-  <meta name="twitter:title" content="About me" />
-  <meta name="twitter:description" content="My name is Antonio, I am catholic, a developer and a black belt in taekwondo. I have a general interest in everything about tech and I am obsessed with productivity.">
+  <meta name="twitter:title" content="Docker Commands" />
+  <meta name="twitter:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to …">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@_antoniolacerda" />
   <meta name="twitter:creator" content="@_antoniolacerda" />
@@ -204,9 +206,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="page-heading">
+              <div class="tutorial-heading">
                 
-                  <h1>About me</h1>
+                  <h1>Docker Commands</h1>
                 
                 
                   <hr class="small">
@@ -227,10 +229,79 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>My name is Antonio, I am catholic, a developer and a black belt in taekwondo.
-I have a general interest in everything about tech and I am obsessed with productivity.</p>
+        <p>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!</p>
+<h2 id="general">General</h2>
+<ul>
+<li><strong>docker version</strong> - if any error here, docker is probably not running. If on linux, do a sudo</li>
+<li><strong>docker info</strong> - a lot more info about the docker installation</li>
+</ul>
+<h2 id="containers">Containers</h2>
+<ul>
+<li><strong>docker container run IMAGE</strong> - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub. If not connected to the internet and one does not have the image locally, well you should not live in the cave ages. The docker container run always ends with the image name if no command is passed. The version of the image can be specified here, using image:version. It defaults to image:latest. It will give it a virtual IP on a private network, named bridge, inside docker engine. It will open up port 80 on host and will forward all traffic to port 80 in the container.</li>
+<li><strong>docker container run &ndash;publish,-p xx:yy IMAGE</strong> - it redirects routing from the port xx of your host to the port yy of the container</li>
+<li><strong>docker container run &ndash;detach,-d IMAGE</strong> - keeps the container running detaching it from the terminal session</li>
+<li><strong>docker container run &ndash;name CONTAINER IMAGE</strong> - creates a container with the specified container_name</li>
+<li><strong>docker container run &ndash;rm IMAGE</strong> - runs a container and deletes it afterwards</li>
+<li><strong>docker container run &ndash;env,-e ENV_LIST IMAGE</strong> - sets environment variables to pass to the container</li>
+<li><strong>docker container run &ndash;network NETWORK IMAGE</strong> - it will create the container on the specified network. It will default to the network bridge</li>
+<li><strong>docker container run &ndash;volume,-v NAMED_VOLUME:VOLUME IMAGE</strong> - it will bind mount a volume with the specified name. if the named volume start with a forward slash, it will map to the specified path on the host. if $(pwd) is used, it will map to the current working directory</li>
+</ul>
+<hr>
+<ul>
+<li><strong>docker container run -it CONTAINER bash</strong> - simulates a real terminal to interact with the container. This way, when we exit the bash, the container will stop because the container only runs as long as the command that it ran on startup runs.</li>
+<li><strong>docker container exec -it CONTAINER bash</strong> - simulates a real terminal to interact with the running container. This way, the container will keep running once this process is exited</li>
+<li><strong>docker container stop CONTAINER [CONTAINER&hellip;]</strong> - stops a running container</li>
+</ul>
+<hr>
+<ul>
+<li><strong>docker container ls (docker ps)</strong> - lists all the running containers</li>
+<li><strong>docker container ls -a (docker ps -a)</strong> - lists all existing containers, even the non-running ones</li>
+<li><strong>docker container rm CONTAINER [CONTAINER&hellip;]</strong> - deletes the specified containers. Here, the full uid can be passed or the first 3 letters of the uid since it’s all it takes for it to be unique, or the container name. If no name was specified, it can be found doing a docker container ls -a. A running container cannot be deleted this way.</li>
+<li><strong>docker container rm -f,&ndash;force CONTAINER [CONTAINER&hellip;]</strong> - Since a running container cannot be deleted the usual way, the force option must be passed</li>
+<li><strong>docker container logs CONTAINER</strong> - see the logs of the container</li>
+<li><strong>docker container logs -f CONTAINER</strong> - see the logs of the container and keeps following it. ctrl+c to exit</li>
+<li><strong>docker container top CONTAINER</strong> - display the running processes of a container</li>
+<li><strong>docker container inspect CONTAINER [CONTAINER&hellip;]</strong> - shows detailed information of the containers specified. It doesn&rsquo;t tell anything about the active container and what it&rsquo;s doing</li>
+<li><strong>docker container stats</strong> - shows a streaming view of live performance data about the running containers</li>
+</ul>
+<hr>
+<ul>
+<li><strong>docker container port CONTAINER</strong> - checks the routing from the host to the container</li>
+</ul>
+<h2 id="network">Network</h2>
+<ul>
+<li><strong>docker network ls</strong> - The network bridge, docker0 on older versions, is the default network that bridges through the NAT firewall to the physical network the host is connected to. By default, all containers will be in this network. The network named host is a special network that skips the virtual networking of docker and attaches the container directly to the host interface. This way, it gain performance but sacrifices security of the container model. The network named none is the equivalent of having an interface on your computer that is not attached to anything</li>
+<li><strong>docker network inspect NETWORK [NETWORK&hellip;]</strong> - inspects the specified networks, displaying detailed information on them. This is how to find out which container are in which network</li>
+<li><strong>docker network create NETWORK</strong> - spawns a new network and allows to attach containers to it</li>
+<li><strong>docker network connect NETWORK CONTAINER</strong> - connects the specified container to the specified network. A container may be connected to multiple networks</li>
+<li><strong>docker network disconnect NETWORK CONTAINER</strong> - disconnects the specified container from the specified network</li>
+</ul>
+<h2 id="images">Images</h2>
+<ul>
+<li><strong>docker image ls</strong> - lists all the images in the host</li>
+<li><strong>docker image rm  IMAGE [IMAGE&hellip;]</strong> - deletes the specified images. The full uid can be passed, or only the first 3 characters or the repository:tag</li>
+<li><strong>docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]</strong> - It defaults to latest if no tag is passed. The best name would be default instead of latest since latest is not always the latest version of the image</li>
+<li><strong>docker image push IMAGE</strong> - pushes the image to docker hub</li>
+<li><strong>docker image build -t,&ndash;tag TAG PATH | URL</strong> - builds an image with the specified tags, latest if none is supplied. A path to a dockerfile must be supplied</li>
+</ul>
+<h2 id="volumes">Volumes</h2>
+<ul>
+<li><strong>docker volume ls</strong> - lists all existing volumes</li>
+<li><strong>docker volume rm VOLUME [VOLUME&hellip;]</strong> - removes the specified volume</li>
+<li><strong>docker volume prune</strong> - removes all non used volumes</li>
+<li><strong>docker volume inspect VOLUME [VOLUME&hellip;]</strong> - the mount point is not accessible directly from the host if using a mac, since docker creates a tiny linux vm to run, so all this data will be stored there. there is a way to get there, but I haven&rsquo;t figured it out yet</li>
+<li><strong>docker volume create VOLUME</strong> -</li>
+</ul>
 
 
+        
+          <div class="blog-tags">
+            
+              <a href="http://placerda.pt/tags/docker/">docker</a>&nbsp;
+            
+              <a href="http://placerda.pt/tags/tips/">tips</a>&nbsp;
+            
+          </div>
         
 
         
@@ -238,6 +309,15 @@ I have a general interest in everything about tech and I am obsessed with produc
         
       </article>
 
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://placerda.pt/post/20190706-diacritics/" data-toggle="tooltip" data-placement="top" title="Remove Diacritics">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
       
 
 
@@ -248,14 +328,6 @@ I have a general interest in everything about tech and I am obsessed with produc
 </div>
 
       
-    <div class="page-meta">
-  
-  
-  
-</div>
-
-
-  
 <footer>
   <div class="container">
     <div class="row">
