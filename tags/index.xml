@@ -8,10 +8,37 @@
     <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
     <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Thu, 24 Oct 2019 22:24:31 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 06:45:53 +0100</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>heroku</title>
+      <link>https://antonioplacerda.github.io/tags/heroku/</link>
+      <pubDate>Tue, 11 Feb 2020 06:45:53 +0100</pubDate>
+      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      <guid>https://antonioplacerda.github.io/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://antonioplacerda.github.io/tags/react/</link>
+      <pubDate>Tue, 11 Feb 2020 06:45:53 +0100</pubDate>
+      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      <guid>https://antonioplacerda.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://antonioplacerda.github.io/tags/redis/</link>
+      <pubDate>Tue, 11 Feb 2020 06:45:53 +0100</pubDate>
+      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      <guid>https://antonioplacerda.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>docker</title>
