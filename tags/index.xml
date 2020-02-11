@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Antonio P Lacerda</title>
-    <link>http://placerda.pt/tags/</link>
+    <link>https://antonioplacerda.github.io/tags/</link>
     <description>Recent content in Tags on Antonio P Lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
@@ -10,33 +10,33 @@
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Thu, 24 Oct 2019 22:24:31 +0100</lastBuildDate>
     
-	<atom:link href="http://placerda.pt/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://antonioplacerda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>docker</title>
-      <link>http://placerda.pt/tags/docker/</link>
+      <link>https://antonioplacerda.github.io/tags/docker/</link>
       <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
       <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
-      <guid>http://placerda.pt/tags/docker/</guid>
+      <guid>https://antonioplacerda.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
-      <link>http://placerda.pt/tags/tips/</link>
+      <link>https://antonioplacerda.github.io/tags/tips/</link>
       <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
       <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
-      <guid>http://placerda.pt/tags/tips/</guid>
+      <guid>https://antonioplacerda.github.io/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>powershell</title>
-      <link>http://placerda.pt/tags/powershell/</link>
+      <link>https://antonioplacerda.github.io/tags/powershell/</link>
       <pubDate>Sat, 06 Jul 2019 09:45:53 +0100</pubDate>
       <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
-      <guid>http://placerda.pt/tags/powershell/</guid>
+      <guid>https://antonioplacerda.github.io/tags/powershell/</guid>
       <description></description>
     </item>
     
