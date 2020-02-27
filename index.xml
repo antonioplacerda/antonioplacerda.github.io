@@ -8,10 +8,19 @@
     <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
     <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
     <copyright>Everything is mine</copyright>
-    <lastBuildDate>Tue, 11 Feb 2020 06:45:53 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 07:56:46 +0000</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ano Novo ou A Liberdade de ser Cristão</title>
+      <link>https://antonioplacerda.github.io/pessoal/20200227-ano-novo/</link>
+      <pubDate>Thu, 27 Feb 2020 07:56:46 +0000</pubDate>
+      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      <guid>https://antonioplacerda.github.io/pessoal/20200227-ano-novo/</guid>
+      <description>Estranho, tantas resoluções de ano novo, tanta coisa que ia fazer em janeiro, tantas alterações basilares que ia fazer à minha vida e ficou tudo igual. Mas igual até pode nem ser verdade, o mais certo até deve ser dizer que ficou tudo pior. Porque a atitude não mudou mas a resoluções ficaram lá sem serem assumidas. Isto fez com que fossem pesando um bocado e fossem fazendo com que me sentisse mal a cada dia que passava.</description>
+    </item>
     
     <item>
       <title>Full stack react redis app</title>
@@ -47,7 +56,7 @@ General  docker version - if any error here, docker is probably not running. If 
       <pubDate>Tue, 16 Oct 2018 05:53:52 +0100</pubDate>
       <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
       <guid>https://antonioplacerda.github.io/post/20181016-hello/</guid>
-      <description>This is my first post. This is the beginning of something amazing. I&amp;rsquo;ve been wanting to give back to the community for a long time but didn&amp;rsquo;t know how to. Well, this is how I plan to start! I want to have a place where I put everything I learn, that is accessible everywhere and to everyone. No better place than here. I also wanted to create something hackable but not fully from scratch, since it would take longer than I&amp;rsquo;d like.</description>
+      <description>This is my first post. This is the beginning of something amazing, I hope. I&amp;rsquo;ve been wanting to give back to the community for a long time but didn&amp;rsquo;t know how to. Well, this is how I plan to start! I want to have a place where I put everything I learn, that is accessible everywhere and to everyone. No better place than here. I also wanted to create something hackable but not fully from scratch, since it would take longer than I&amp;rsquo;d like.</description>
     </item>
     
     <item>

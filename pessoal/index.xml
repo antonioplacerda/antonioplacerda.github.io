@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pessoals on Antonio P Lacerda</title>
+    <link>https://antonioplacerda.github.io/pessoal/</link>
+    <description>Recent content in Pessoals on Antonio P Lacerda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
+    <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Thu, 27 Feb 2020 07:56:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://antonioplacerda.github.io/pessoal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ano Novo ou A Liberdade de ser Cristão</title>
+      <link>https://antonioplacerda.github.io/pessoal/20200227-ano-novo/</link>
+      <pubDate>Thu, 27 Feb 2020 07:56:46 +0000</pubDate>
+      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      <guid>https://antonioplacerda.github.io/pessoal/20200227-ano-novo/</guid>
+      <description>Estranho, tantas resoluções de ano novo, tanta coisa que ia fazer em janeiro, tantas alterações basilares que ia fazer à minha vida e ficou tudo igual. Mas igual até pode nem ser verdade, o mais certo até deve ser dizer que ficou tudo pior. Porque a atitude não mudou mas a resoluções ficaram lá sem serem assumidas. Isto fez com que fossem pesando um bocado e fossem fazendo com que me sentisse mal a cada dia que passava.</description>
+    </item>
+    
+  </channel>
+</rss>
