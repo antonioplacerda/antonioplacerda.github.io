@@ -5,9 +5,7 @@
     <link>https://antonioplacerda.github.io/tags/redis/</link>
     <description>Recent content in redis on Antonio P Lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
-    <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
-    <copyright>Everything is mine</copyright>
+    <copyright>© Antonio P Lacerda</copyright>
     <lastBuildDate>Tue, 11 Feb 2020 06:45:53 +0100</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/tags/redis/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +15,7 @@
       <title>Full stack react redis app</title>
       <link>https://antonioplacerda.github.io/projects/full-stack-react-redis/</link>
       <pubDate>Tue, 11 Feb 2020 06:45:53 +0100</pubDate>
-      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      
       <guid>https://antonioplacerda.github.io/projects/full-stack-react-redis/</guid>
       <description>I wanted to get an app live and here it is! I followed a tutorial from code drip to help me start this. Since this was supposed to be a simple test of my skills, I didn&amp;rsquo;t want to pay for a hosting solution. I checked digital ocean, amazon web services and google cloud platform. I also tried firebase, but it also seemed an overkill. So, I went with heroku! Initially I had an express app running for the api where it would only fetch the data from the redis database, a worker with a scheduled cron job and the react server for the frontend.</description>
     </item>

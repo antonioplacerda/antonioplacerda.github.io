@@ -5,9 +5,7 @@
     <link>https://antonioplacerda.github.io/tags/docker/</link>
     <description>Recent content in docker on Antonio P Lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
-    <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
-    <copyright>Everything is mine</copyright>
+    <copyright>© Antonio P Lacerda</copyright>
     <lastBuildDate>Thu, 24 Oct 2019 22:24:31 +0100</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +15,7 @@
       <title>Docker Commands</title>
       <link>https://antonioplacerda.github.io/post/20191024-docker-commands/</link>
       <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
-      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      
       <guid>https://antonioplacerda.github.io/post/20191024-docker-commands/</guid>
       <description>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
 General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.</description>

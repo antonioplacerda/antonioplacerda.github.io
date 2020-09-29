@@ -5,9 +5,7 @@
     <link>https://antonioplacerda.github.io/post/</link>
     <description>Recent content in Posts on Antonio P Lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>antonio@placerda.pt (Antonio P. Lacerda)</managingEditor>
-    <webMaster>antonio@placerda.pt (Antonio P. Lacerda)</webMaster>
-    <copyright>Everything is mine</copyright>
+    <copyright>© Antonio P Lacerda</copyright>
     <lastBuildDate>Thu, 24 Oct 2019 22:24:31 +0100</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +15,7 @@
       <title>Docker Commands</title>
       <link>https://antonioplacerda.github.io/post/20191024-docker-commands/</link>
       <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
-      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      
       <guid>https://antonioplacerda.github.io/post/20191024-docker-commands/</guid>
       <description>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
 General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.</description>
@@ -27,7 +25,7 @@ General  docker version - if any error here, docker is probably not running. If 
       <title>Remove Diacritics</title>
       <link>https://antonioplacerda.github.io/post/20190706-diacritics/</link>
       <pubDate>Sat, 06 Jul 2019 09:45:53 +0100</pubDate>
-      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      
       <guid>https://antonioplacerda.github.io/post/20190706-diacritics/</guid>
       <description>If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you&amp;rsquo;ve written, then we are on the same boat. Although I love my language, portuguese, messing up with scripts is never a good way to make friends, so I often need to remove those annoying characters from sentences and every time I need to do so I go surf the web for the same answer.</description>
     </item>
@@ -36,7 +34,7 @@ General  docker version - if any error here, docker is probably not running. If 
       <title>Hello, World</title>
       <link>https://antonioplacerda.github.io/post/20181016-hello/</link>
       <pubDate>Tue, 16 Oct 2018 05:53:52 +0100</pubDate>
-      <author>antonio@placerda.pt (Antonio P. Lacerda)</author>
+      
       <guid>https://antonioplacerda.github.io/post/20181016-hello/</guid>
       <description>This is my first post. This is the beginning of something amazing, I hope. I&amp;rsquo;ve been wanting to give back to the community for a long time but didn&amp;rsquo;t know how to. Well, this is how I plan to start! I want to have a place where I put everything I learn, that is accessible everywhere and to everyone. No better place than here. I also wanted to create something hackable but not fully from scratch, since it would take longer than I&amp;rsquo;d like.</description>
     </item>

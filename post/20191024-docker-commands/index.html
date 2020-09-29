@@ -1,104 +1,146 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-  <head>
-    
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker Commands - Antonio P Lacerda</title><link rel="icon" type="image/png" href=img/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta property="og:description" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="description" content="" />
+	<meta name="description" content="" />
 
-  <title>Docker Commands - Antonio P Lacerda</title>
-  <meta name="description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
-General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.">
-  <meta name="author" content="Antonio P. Lacerda"/><script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "Antonio P Lacerda",
-    
-    "url": "https:\/\/antonioplacerda.github.io"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "https:\/\/antonioplacerda.github.io"
-  
-  
-  
-  
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https:\/\/antonioplacerda.github.io",
-          "name": "home"
-        }
-    },{
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@id": "https:\/\/antonioplacerda.github.io\/post\/20191024-docker-commands\/",
-          "name": "Docker commands"
-        }
-    }]
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Article",
-  "author": {
-    "name" : "Antonio P. Lacerda"
-  },
-  "headline": "Docker Commands",
-  "description" : "This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!\nGeneral  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.",
-  "inLanguage" : "en",
-  "wordCount":  1003 ,
-  "datePublished" : "2019-10-24T22:24:31",
-  "dateModified" : "2019-10-24T22:24:31",
-  "image" : "https:\/\/antonioplacerda.github.io",
-  "keywords" : [ "docker, tips" ],
-  "mainEntityOfPage" : "https:\/\/antonioplacerda.github.io\/post\/20191024-docker-commands\/",
-  "publisher" : {
-    "@type": "Organization",
-    "name" : "https:\/\/antonioplacerda.github.io",
-    "logo" : {
-        "@type" : "ImageObject",
-        "url" : "https:\/\/antonioplacerda.github.io",
-        "height" :  60 ,
-        "width" :  60
-    }
-  }
-}
-</script>
+	<meta property="og:title" content="Docker Commands | Antonio P Lacerda" />
+	<meta name="twitter:title" content="Docker Commands | Antonio P Lacerda" />
 
-<meta property="og:title" content="Docker Commands" />
+	<meta property="og:image" content=""/>
+	<meta itemprop="name" content="Docker Commands | Antonio P Lacerda" />
+	<meta name="application-name" content="Docker Commands | Antonio P Lacerda" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:title" content="Docker Commands" />
 <meta property="og:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
-General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.">
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub." />
+<meta property="og:type" content="article" />
 <meta property="og:url" content="https://antonioplacerda.github.io/post/20191024-docker-commands/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Antonio P Lacerda" />
+<meta property="article:published_time" content="2019-10-24T22:24:31+01:00" />
+<meta property="article:modified_time" content="2019-10-24T22:24:31+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Docker Commands"/>
+<meta name="twitter:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub."/>
+<script src="https://antonioplacerda.github.iojs/feather.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://antonioplacerda.github.iocss/main.css" /><link rel="stylesheet" type="text/css" href="https://antonioplacerda.github.iocss/dark.css" media="(prefers-color-scheme: dark)" />
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://antonioplacerda.github.io">Antonio P Lacerda</a>
+	</div>
+	<nav>
+		
+		<a href="/projects">Projects</a>
+		
+		<a href="/about">About</a>
+		
+	</nav>
+</header>
 
-  <meta name="twitter:title" content="Docker Commands" />
-  <meta name="twitter:description" content="This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to …">
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@_antoniolacerda" />
-  <meta name="twitter:creator" content="@_antoniolacerda" />
-  <link href='https://antonioplacerda.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.64.0" />
-  <link rel="alternate" href="https://antonioplacerda.github.io/index.xml" type="application/rss+xml" title="Antonio P Lacerda"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://antonioplacerda.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://antonioplacerda.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://antonioplacerda.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Docker Commands</h1>
+			<div class="meta">Posted on Oct 24, 2019</div>
+		</div>
+		
+
+		<section class="body">
+			<p>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!</p>
+<h2 id="general">General</h2>
+<ul>
+<li><code>docker version</code> - if any error here, docker is probably not running. If on linux, do a sudo</li>
+<li><code>docker info</code> - a lot more info about the docker installation</li>
+</ul>
+<h2 id="containers">Containers</h2>
+<ul>
+<li><code>docker container run IMAGE</code> - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub. If not connected to the internet and one does not have the image locally, well you should not live in the cave ages. The docker container run always ends with the image name if no command is passed. The version of the image can be specified here, using image:version. It defaults to image:latest. It will give it a virtual IP on a private network, named bridge, inside docker engine. It will open up port 80 on host and will forward all traffic to port 80 in the container.</li>
+<li><code>docker container run --publish,-p xx:yy IMAGE</code> - it redirects routing from the port xx of your host to the port yy of the container</li>
+<li><code>docker container run --detach,-d IMAGE</code> - keeps the container running detaching it from the terminal session</li>
+<li><code>docker container run --name CONTAINER IMAGE</code> - creates a container with the specified container_name</li>
+<li><code>docker container run --rm IMAGE</code> - runs a container and deletes it afterwards</li>
+<li><code>docker container run --env,-e ENV_LIST IMAGE</code> - sets environment variables to pass to the container</li>
+<li><code>docker container run --network NETWORK IMAGE</code> - it will create the container on the specified network. It will default to the network bridge</li>
+<li><code>docker container run --volume,-v NAMED_VOLUME:VOLUME IMAGE</code> - it will bind mount a volume with the specified name. if the named volume start with a forward slash, it will map to the specified path on the host. if $(pwd) is used, it will map to the current working directory</li>
+</ul>
+<hr>
+<ul>
+<li><code>docker container run -it CONTAINER bash</code> - simulates a real terminal to interact with the container. This way, when we exit the bash, the container will stop because the container only runs as long as the command that it ran on startup runs.</li>
+<li><code>docker container exec -it CONTAINER bash</code> - simulates a real terminal to interact with the running container. This way, the container will keep running once this process is exited</li>
+<li><code>docker container stop CONTAINER \[CONTAINER...\]</code> - stops a running container</li>
+</ul>
+<hr>
+<ul>
+<li><code>docker container ls (docker ps)</code> - lists all the running containers</li>
+<li><code>docker container ls -a (docker ps -a)</code> - lists all existing containers, even the non-running ones</li>
+<li><code>docker container rm CONTAINER \[CONTAINER...\]</code> - deletes the specified containers. Here, the full uid can be passed or the first 3 letters of the uid since it’s all it takes for it to be unique, or the container name. If no name was specified, it can be found doing a docker container ls -a. A running container cannot be deleted this way.</li>
+<li><code>docker container rm -f,--force CONTAINER \[CONTAINER...\]</code> - Since a running container cannot be deleted the usual way, the force option must be passed</li>
+<li><code>docker container logs CONTAINER</code> - see the logs of the container</li>
+<li><code>docker container logs -f CONTAINER</code> - see the logs of the container and keeps following it. ctrl+c to exit</li>
+<li><code>docker container top CONTAINER</code> - display the running processes of a container</li>
+<li><code>docker container inspect CONTAINER \[CONTAINER...\]</code> - shows detailed information of the containers specified. It doesn&rsquo;t tell anything about the active container and what it&rsquo;s doing</li>
+<li><code>docker container stats</code> - shows a streaming view of live performance data about the running containers</li>
+</ul>
+<hr>
+<ul>
+<li><code>docker container port CONTAINER</code> - checks the routing from the host to the container</li>
+</ul>
+<h2 id="network">Network</h2>
+<ul>
+<li><code>docker network ls</code> - The network bridge, docker0 on older versions, is the default network that bridges through the NAT firewall to the physical network the host is connected to. By default, all containers will be in this network. The network named host is a special network that skips the virtual networking of docker and attaches the container directly to the host interface. This way, it gain performance but sacrifices security of the container model. The network named none is the equivalent of having an interface on your computer that is not attached to anything</li>
+<li><code>docker network inspect NETWORK \[NETWORK...\]</code> - inspects the specified networks, displaying detailed information on them. This is how to find out which container are in which network</li>
+<li><code>docker network create NETWORK</code> - spawns a new network and allows to attach containers to it</li>
+<li><code>docker network connect NETWORK CONTAINER</code> - connects the specified container to the specified network. A container may be connected to multiple networks</li>
+<li><code>docker network disconnect NETWORK CONTAINER</code> - disconnects the specified container from the specified network</li>
+</ul>
+<h2 id="images">Images</h2>
+<ul>
+<li><code>docker image ls</code> - lists all the images in the host</li>
+<li><code>docker image rm  IMAGE \[IMAGE...\]</code> - deletes the specified images. The full uid can be passed, or only the first 3 characters or the repository:tag</li>
+<li><code>docker image tag SOURCE_IMAGE\[:TAG\] TARGET_IMAGE\[:TAG\]</code> - It defaults to latest if no tag is passed. The best name would be default instead of latest since latest is not always the latest version of the image</li>
+<li><code>docker image push IMAGE</code> - pushes the image to docker hub</li>
+<li><code>docker image build -t,--tag TAG PATH | URL</code> - builds an image with the specified tags, latest if none is supplied. A path to a dockerfile must be supplied</li>
+</ul>
+<h2 id="volumes">Volumes</h2>
+<ul>
+<li><code>docker volume ls</code> - lists all existing volumes</li>
+<li><code>docker volume rm VOLUME \[VOLUME...\]</code> - removes the specified volume</li>
+<li><code>docker volume prune</code> - removes all non used volumes</li>
+<li><code>docker volume inspect VOLUME \[VOLUME...\]</code> - the mount point is not accessible directly from the host if using a mac, since docker creates a tiny linux vm to run, so all this data will be stored there. there is a way to get there, but I haven&rsquo;t figured it out yet</li>
+<li><code>docker volume create VOLUME</code> -</li>
+</ul>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/docker">docker</a></li>
+					
+					<li><a href="/tags/tips">tips</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/antonioplacerda" title="GitHub"><i data-feather="github"></i></a>|<a class="soc" href="https://twitter.com/_antoniolacerda" title="Twitter"><i data-feather="twitter"></i></a>|⚡️
+	2020  © Antonio P Lacerda |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
 
 
 <script type="application/javascript">
@@ -112,341 +154,8 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://antonioplacerda.github.io">Antonio P Lacerda</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Projects" href="/projects">Projects</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/about">About</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    
-
-  </div>
-</nav>
-
-
-
-
-    
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
-
-  
-  
-  
-
-
-
-
-
-
-  
-    
-
-    <header class="header-section ">
-      
-      <div class="intro-header no-img">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="post-heading">
-                
-                  <h1>Docker Commands</h1>
-                
-                
-                
-                
-                  <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2019-10-24
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;5&nbsp;minutes
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Antonio P. Lacerda
-    
-  
-  
-</span>
-
-
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-  
-
-
-    
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        <p>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!</p>
-<h2 id="general">General</h2>
-<ul>
-<li><strong>docker version</strong> - if any error here, docker is probably not running. If on linux, do a sudo</li>
-<li><strong>docker info</strong> - a lot more info about the docker installation</li>
-</ul>
-<h2 id="containers">Containers</h2>
-<ul>
-<li><strong>docker container run IMAGE</strong> - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub. If not connected to the internet and one does not have the image locally, well you should not live in the cave ages. The docker container run always ends with the image name if no command is passed. The version of the image can be specified here, using image:version. It defaults to image:latest. It will give it a virtual IP on a private network, named bridge, inside docker engine. It will open up port 80 on host and will forward all traffic to port 80 in the container.</li>
-<li><strong>docker container run &ndash;publish,-p xx:yy IMAGE</strong> - it redirects routing from the port xx of your host to the port yy of the container</li>
-<li><strong>docker container run &ndash;detach,-d IMAGE</strong> - keeps the container running detaching it from the terminal session</li>
-<li><strong>docker container run &ndash;name CONTAINER IMAGE</strong> - creates a container with the specified container_name</li>
-<li><strong>docker container run &ndash;rm IMAGE</strong> - runs a container and deletes it afterwards</li>
-<li><strong>docker container run &ndash;env,-e ENV_LIST IMAGE</strong> - sets environment variables to pass to the container</li>
-<li><strong>docker container run &ndash;network NETWORK IMAGE</strong> - it will create the container on the specified network. It will default to the network bridge</li>
-<li><strong>docker container run &ndash;volume,-v NAMED_VOLUME:VOLUME IMAGE</strong> - it will bind mount a volume with the specified name. if the named volume start with a forward slash, it will map to the specified path on the host. if $(pwd) is used, it will map to the current working directory</li>
-</ul>
-<hr>
-<ul>
-<li><strong>docker container run -it CONTAINER bash</strong> - simulates a real terminal to interact with the container. This way, when we exit the bash, the container will stop because the container only runs as long as the command that it ran on startup runs.</li>
-<li><strong>docker container exec -it CONTAINER bash</strong> - simulates a real terminal to interact with the running container. This way, the container will keep running once this process is exited</li>
-<li><strong>docker container stop CONTAINER [CONTAINER&hellip;]</strong> - stops a running container</li>
-</ul>
-<hr>
-<ul>
-<li><strong>docker container ls (docker ps)</strong> - lists all the running containers</li>
-<li><strong>docker container ls -a (docker ps -a)</strong> - lists all existing containers, even the non-running ones</li>
-<li><strong>docker container rm CONTAINER [CONTAINER&hellip;]</strong> - deletes the specified containers. Here, the full uid can be passed or the first 3 letters of the uid since it’s all it takes for it to be unique, or the container name. If no name was specified, it can be found doing a docker container ls -a. A running container cannot be deleted this way.</li>
-<li><strong>docker container rm -f,&ndash;force CONTAINER [CONTAINER&hellip;]</strong> - Since a running container cannot be deleted the usual way, the force option must be passed</li>
-<li><strong>docker container logs CONTAINER</strong> - see the logs of the container</li>
-<li><strong>docker container logs -f CONTAINER</strong> - see the logs of the container and keeps following it. ctrl+c to exit</li>
-<li><strong>docker container top CONTAINER</strong> - display the running processes of a container</li>
-<li><strong>docker container inspect CONTAINER [CONTAINER&hellip;]</strong> - shows detailed information of the containers specified. It doesn&rsquo;t tell anything about the active container and what it&rsquo;s doing</li>
-<li><strong>docker container stats</strong> - shows a streaming view of live performance data about the running containers</li>
-</ul>
-<hr>
-<ul>
-<li><strong>docker container port CONTAINER</strong> - checks the routing from the host to the container</li>
-</ul>
-<h2 id="network">Network</h2>
-<ul>
-<li><strong>docker network ls</strong> - The network bridge, docker0 on older versions, is the default network that bridges through the NAT firewall to the physical network the host is connected to. By default, all containers will be in this network. The network named host is a special network that skips the virtual networking of docker and attaches the container directly to the host interface. This way, it gain performance but sacrifices security of the container model. The network named none is the equivalent of having an interface on your computer that is not attached to anything</li>
-<li><strong>docker network inspect NETWORK [NETWORK&hellip;]</strong> - inspects the specified networks, displaying detailed information on them. This is how to find out which container are in which network</li>
-<li><strong>docker network create NETWORK</strong> - spawns a new network and allows to attach containers to it</li>
-<li><strong>docker network connect NETWORK CONTAINER</strong> - connects the specified container to the specified network. A container may be connected to multiple networks</li>
-<li><strong>docker network disconnect NETWORK CONTAINER</strong> - disconnects the specified container from the specified network</li>
-</ul>
-<h2 id="images">Images</h2>
-<ul>
-<li><strong>docker image ls</strong> - lists all the images in the host</li>
-<li><strong>docker image rm  IMAGE [IMAGE&hellip;]</strong> - deletes the specified images. The full uid can be passed, or only the first 3 characters or the repository:tag</li>
-<li><strong>docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]</strong> - It defaults to latest if no tag is passed. The best name would be default instead of latest since latest is not always the latest version of the image</li>
-<li><strong>docker image push IMAGE</strong> - pushes the image to docker hub</li>
-<li><strong>docker image build -t,&ndash;tag TAG PATH | URL</strong> - builds an image with the specified tags, latest if none is supplied. A path to a dockerfile must be supplied</li>
-</ul>
-<h2 id="volumes">Volumes</h2>
-<ul>
-<li><strong>docker volume ls</strong> - lists all existing volumes</li>
-<li><strong>docker volume rm VOLUME [VOLUME&hellip;]</strong> - removes the specified volume</li>
-<li><strong>docker volume prune</strong> - removes all non used volumes</li>
-<li><strong>docker volume inspect VOLUME [VOLUME&hellip;]</strong> - the mount point is not accessible directly from the host if using a mac, since docker creates a tiny linux vm to run, so all this data will be stored there. there is a way to get there, but I haven&rsquo;t figured it out yet</li>
-<li><strong>docker volume create VOLUME</strong> -</li>
-</ul>
-
-
-        
-          <div class="blog-tags">
-            
-              <a href="https://antonioplacerda.github.io/tags/docker/">docker</a>&nbsp;
-            
-              <a href="https://antonioplacerda.github.io/tags/tips/">tips</a>&nbsp;
-            
-          </div>
-        
-
-        
-
-        
-      </article>
-
-      
-        <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="https://antonioplacerda.github.io/post/20190706-diacritics/" data-toggle="tooltip" data-placement="top" title="Remove Diacritics">&larr; Previous Post</a>
-            </li>
-          
-          
-        </ul>
-      
-
-
-      
-
-    </div>
-  </div>
-</div>
-
-      
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:antonio@placerda.pt" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/antonioplacerda" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/_antoniolacerda" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/antonioplacerda/username" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            <a href="" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          &copy;
-          
-            2019 - 2020
-          
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="https://antonioplacerda.github.io">Antonio P Lacerda</a>
-          
-          | 
-          <a href="https://gohugo.io">Hugo v0.64.0</a> - <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="https://antonioplacerda.github.io/js/main.js"></script>
-<script src="https://antonioplacerda.github.io/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://antonioplacerda.github.io/js/load-photoswipe.js"></script>
-
-
-
-
-
-
-
-
-
-    
-  </body>
+<script>
+      feather.replace()
+</script></div>
+    </body>
 </html>
-
