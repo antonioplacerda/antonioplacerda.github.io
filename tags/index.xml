@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Antonio P Lacerda</title>
+    <title>Tags on antonio p lacerda</title>
     <link>https://antonioplacerda.github.io/tags/</link>
-    <description>Recent content in Tags on Antonio P Lacerda</description>
+    <description>Recent content in Tags on antonio p lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© Antonio P Lacerda</copyright>
+    <language>en-us</language>
+    <copyright>© Antonio P. Lacerda</copyright>
     <lastBuildDate>Tue, 11 Feb 2020 06:45:53 +0100</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />

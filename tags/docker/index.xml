@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker on Antonio P Lacerda</title>
+    <title>docker on antonio p lacerda</title>
     <link>https://antonioplacerda.github.io/tags/docker/</link>
-    <description>Recent content in docker on Antonio P Lacerda</description>
+    <description>Recent content in docker on antonio p lacerda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© Antonio P Lacerda</copyright>
+    <language>en-us</language>
+    <copyright>© Antonio P. Lacerda</copyright>
     <lastBuildDate>Thu, 24 Oct 2019 22:24:31 +0100</lastBuildDate>
     
 	<atom:link href="https://antonioplacerda.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Docker Commands</title>
-      <link>https://antonioplacerda.github.io/post/20191024-docker-commands/</link>
+      <link>https://antonioplacerda.github.io/posts/20191024-docker-commands/</link>
       <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
       
-      <guid>https://antonioplacerda.github.io/post/20191024-docker-commands/</guid>
+      <guid>https://antonioplacerda.github.io/posts/20191024-docker-commands/</guid>
       <description>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
 General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.</description>
     </item>
