@@ -39,32 +39,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>docker</title>
-      <link>https://antonioplacerda.github.io/tags/docker/</link>
-      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
-      
-      <guid>https://antonioplacerda.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://antonioplacerda.github.io/tags/tips/</link>
-      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
-      
-      <guid>https://antonioplacerda.github.io/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>powershell</title>
-      <link>https://antonioplacerda.github.io/tags/powershell/</link>
-      <pubDate>Sat, 06 Jul 2019 09:45:53 +0100</pubDate>
-      
-      <guid>https://antonioplacerda.github.io/tags/powershell/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
