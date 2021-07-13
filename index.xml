@@ -1,24 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>antonio p lacerda</title>
     <link>https://antonioplacerda.github.io/</link>
     <description>Recent content on antonio p lacerda</description>
+    <image>
+      <url>https://antonioplacerda.github.io/papermod-cover.png</url>
+      <link>https://antonioplacerda.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© Antonio P. Lacerda</copyright>
-    <lastBuildDate>Tue, 11 Feb 2020 06:45:53 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jul 2021 23:54:17 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 Q3 Goals</title>
+      <link>https://antonioplacerda.github.io/posts/20210713_q3goals/</link>
+      <pubDate>Tue, 13 Jul 2021 23:54:17 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20210713_q3goals/</guid>
+      <description>OK, now it&amp;rsquo;s time to define some priorities. Having dreams is great, but that doesn&amp;rsquo;t get anything done. And also, having them in kind of a blob is also no good!
+I know I want to improve my technical skills to feel more comfortable taking on any new challenge that I might face. I know I want to learn more about blockchains and smart contracts. I know I want to improve my trading skills.</description>
+    </item>
     
-	<atom:link href="https://antonioplacerda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 Dreams</title>
+      <link>https://antonioplacerda.github.io/posts/20210712_2021dreams/</link>
+      <pubDate>Mon, 12 Jul 2021 08:16:45 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20210712_2021dreams/</guid>
+      <description>A full year is too long to set goals. It&amp;rsquo;s a bettter timespan to set dreams, that will get translated into goals for each quarter, that should get translated into projects and then into concrete small actions. I will try to do that, since I&amp;rsquo;ve spent these past quarters dreaming about these goals!
+But, for now, here are my dreams for 2021:
+ Create a simple DCA trading bot for DeFi; Start a &amp;ldquo;strategy&amp;rdquo; journal, where I will implement several trading strategies and backtest them; Improve my algorithms and data structures knowledge; Improve my system design skills; Improve my pattern recognition for trading skills; Create a simple DApp in the ethereum blockchain; Create a bot to automatically claim rewards from farms and swap them; Create an explorer sniffer, that will fetch all transactions for the supplied address; Create a portfolio app, that will get the records from several exchanges; Add the explorer info to the portfolio app; Create an arbitrageur bot for CEX; Create an arbitrageur bot for DEX; Improve my go skills;  </description>
+    </item>
     
+    <item>
+      <title>A felicidade de ter desafios ou o ter de escolher entre trabalhos</title>
+      <link>https://antonioplacerda.github.io/pessoal/20201218-desafios/</link>
+      <pubDate>Fri, 18 Dec 2020 21:36:29 +0000</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/pessoal/20201218-desafios/</guid>
+      <description>Tenho uma decisão para tomar! Numa última reunião que tive com um grupo de vários casais, estivemos a falar de desafios. Isto abriu-nos os olhos, enquanto casal, para a diferença que faz olhar para as coisas como desafios e não problemas. O quanto ver tudo como problema nos fecha dentro de uma espiral descendente é impressionante.
+Fez-me voltar a estar agradecido por ter a sorte de não ter dias totalmente monótonos, de poder pensar nas coisas que me acontecem.</description>
+    </item>
+    
+    <item>
+      <title>Ano Novo ou A Liberdade de ser Cristão</title>
+      <link>https://antonioplacerda.github.io/pessoal/20200227-ano-novo/</link>
+      <pubDate>Thu, 27 Feb 2020 07:56:46 +0000</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/pessoal/20200227-ano-novo/</guid>
+      <description>Estranho, tantas resoluções de ano novo, tanta coisa que ia fazer em janeiro, tantas alterações basilares que ia fazer à minha vida e ficou tudo igual. Mas igual até pode nem ser verdade, o mais certo até deve ser dizer que ficou tudo pior. Porque a atitude não mudou mas a resoluções ficaram lá sem serem assumidas. Isto fez com que fossem pesando um bocado e fossem fazendo com que me sentisse mal a cada dia que passava.</description>
+    </item>
     
     <item>
       <title>Full stack react redis app</title>
-      <link>https://antonioplacerda.github.io/</link>
+      <link>https://antonioplacerda.github.io/projects/full-stack-react-redis/</link>
       <pubDate>Tue, 11 Feb 2020 06:45:53 +0100</pubDate>
       
-      <guid>https://antonioplacerda.github.io/</guid>
+      <guid>https://antonioplacerda.github.io/projects/full-stack-react-redis/</guid>
       <description>I wanted to get an app live and here it is! I followed a tutorial from code drip to help me start this. Since this was supposed to be a simple test of my skills, I didn&amp;rsquo;t want to pay for a hosting solution. I checked digital ocean, amazon web services and google cloud platform. I also tried firebase, but it also seemed an overkill. So, I went with heroku! Initially I had an express app running for the api where it would only fetch the data from the redis database, a worker with a scheduled cron job and the react server for the frontend.</description>
+    </item>
+    
+    <item>
+      <title>Docker Commands</title>
+      <link>https://antonioplacerda.github.io/posts/20191024-docker-commands/</link>
+      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20191024-docker-commands/</guid>
+      <description>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub.</description>
+    </item>
+    
+    <item>
+      <title>Remove Diacritics</title>
+      <link>https://antonioplacerda.github.io/posts/20190706-diacritics/</link>
+      <pubDate>Sat, 06 Jul 2019 09:45:53 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20190706-diacritics/</guid>
+      <description>If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you&amp;rsquo;ve written, then we are on the same boat. Although I love my language, portuguese, messing up with scripts is never a good way to make friends, so I often need to remove those annoying characters from sentences and every time I need to do so I go surf the web for the same answer.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World</title>
+      <link>https://antonioplacerda.github.io/posts/20181016-hello/</link>
+      <pubDate>Tue, 16 Oct 2018 05:53:52 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20181016-hello/</guid>
+      <description>This is my first post. This is the beginning of something amazing, I hope. I&amp;rsquo;ve been wanting to give back to the community for a long time but didn&amp;rsquo;t know how to. Well, this is how I plan to start! I want to have a place where I put everything I learn, that is accessible everywhere and to everyone. No better place than here. I also wanted to create something hackable but not fully from scratch, since it would take longer than I&amp;rsquo;d like.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://antonioplacerda.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/about/</guid>
+      <description>My name is Antonio, I am catholic, a developer and a black belt in taekwondo. I have a general interest in everything about tech and I am obsessed with productivity.</description>
     </item>
     
   </channel>

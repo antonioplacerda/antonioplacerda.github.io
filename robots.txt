@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://antonioplacerda.github.io/sitemap.xml

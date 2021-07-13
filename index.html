@@ -1,81 +1,320 @@
 <!DOCTYPE html>
-<html><head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Full stack react redis app - antonio p lacerda</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" dir="auto">
 
-	<meta property="og:description" content="" />
-	<meta name="twitter:description" content="" />
-	<meta name="description" content="" />
-	<meta name="description" content="" />
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>antonio p lacerda</title>
 
-	<meta property="og:title" content="Full stack react redis app | antonio p lacerda" />
-	<meta name="twitter:title" content="Full stack react redis app | antonio p lacerda" />
+<meta name="description" content="antonio p lacerda - https://antonioplacerda.github.io">
+<meta name="author" content="Antonio P Lacerda">
+<link rel="canonical" href="https://antonioplacerda.github.io/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.35cd0f65a15cafa92372b8313deef5960aae04b90ad722f2bbf509eb0468137e.css" integrity="sha256-Nc0PZaFcr6kjcrgxPe71lgquBLkK1yLyu/UJ6wRoE34=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://antonioplacerda.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://antonioplacerda.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://antonioplacerda.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://antonioplacerda.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://antonioplacerda.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.83.1" />
+<link rel="alternate" type="application/rss+xml" href="https://antonioplacerda.github.io/index.xml">
+<link rel="alternate" type="application/json" href="https://antonioplacerda.github.io/index.json">
+<meta property="og:title" content="antonio p lacerda" />
+<meta property="og:description" content="antonio p lacerda - https://antonioplacerda.github.io" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://antonioplacerda.github.io/" /><meta property="og:image" content="https://antonioplacerda.github.io/papermod-cover.png"/>
 
-	<meta property="og:image" content=""/>
-	<meta itemprop="name" content="Full stack react redis app | antonio p lacerda" />
-	<meta name="application-name" content="Full stack react redis app | antonio p lacerda" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:title" content="Full stack react redis app" />
-<meta property="og:description" content="I wanted to get an app live and here it is! I followed a tutorial from code drip to help me start this. Since this was supposed to be a simple test of my skills, I didn&rsquo;t want to pay for a hosting solution. I checked digital ocean, amazon web services and google cloud platform. I also tried firebase, but it also seemed an overkill. So, I went with heroku! Initially I had an express app running for the api where it would only fetch the data from the redis database, a worker with a scheduled cron job and the react server for the frontend." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://antonioplacerda.github.io/" />
-<meta property="article:published_time" content="2020-02-11T06:45:53+01:00" />
-<meta property="article:modified_time" content="2020-02-11T06:45:53+01:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Full stack react redis app"/>
-<meta name="twitter:description" content="I wanted to get an app live and here it is! I followed a tutorial from code drip to help me start this. Since this was supposed to be a simple test of my skills, I didn&rsquo;t want to pay for a hosting solution. I checked digital ocean, amazon web services and google cloud platform. I also tried firebase, but it also seemed an overkill. So, I went with heroku! Initially I had an express app running for the api where it would only fetch the data from the redis database, a worker with a scheduled cron job and the react server for the frontend."/>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" media="screen" href="https://antonioplacerda.github.io/css/main.css" /><link rel="stylesheet" type="text/css" href="https://antonioplacerda.github.io/css/dark.css" media="(prefers-color-scheme: dark)" />
-</head><body>
-        <div class="content"><header>
-	<div class="main">
-		<a href="https://antonioplacerda.github.io/">antonio p lacerda</a>
-	</div>
-	<nav>
-		
-		<a href="/">Home</a>
-		
-		<a href="/posts">All posts</a>
-		
-		<a href="/about">About</a>
-		
-	</nav>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://antonioplacerda.github.io/papermod-cover.png"/>
+
+<meta name="twitter:title" content="antonio p lacerda"/>
+<meta name="twitter:description" content="antonio p lacerda - https://antonioplacerda.github.io"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "antonio p lacerda",
+  "url": "https://antonioplacerda.github.io/",
+  "description": "antonio p lacerda - https://antonioplacerda.github.io",
+  "thumbnailUrl": "https://antonioplacerda.github.io/favicon.ico",
+  "sameAs": [
+      "https://github.com/antonioplacerda", "https://linkedin.com/in/antonioplacerda/?locale=en_US", "index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://antonioplacerda.github.io/" accesskey="h" title="antonio p lacerda (Alt + H)">antonio p lacerda</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://antonioplacerda.github.io/posts" title="All posts">
+                    <span>All posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://antonioplacerda.github.io/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://antonioplacerda.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </header>
+<main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>Welcome to my humble domain</h1>
+    </header>
+    <section class="entry-content">
+        <p><p>Hello! I hope you feel at home here!</p>
+<ul>
+<li>Not sure if what I have to offer is any good, but it&rsquo;s as real as it gets.</li>
+<li>Here, I share mostly tech stuff, but it&rsquo;s a place to just write everything that I want.</li>
+<li>If you have anything you want to share with me, please feel free to reach me on github or linkedin.</li>
+<li>I&rsquo;m so glad you&rsquo;re here!</li>
+</ul>
+</p>
+    </section>
+    <footer class="entry-footer">
+        <div class="social-icons">
+    <a href="https://github.com/antonioplacerda" target="_blank" rel="noopener noreferrer me" title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://linkedin.com/in/antonioplacerda/?locale=en_US" target="_blank" rel="noopener noreferrer me" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me" title="RsS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a>
+</div>
 
-<main>
-	<article>
-		<div class="title">
-			<h1 class="title">Full stack react redis app</h1>
-			<div class="meta">Posted on Feb 11, 2020</div>
-		</div>
-		
+    </footer>
+</article>
 
-		<section class="body">
-			<p>I wanted to get an app live and <a href="https://salty-badlands-66972.herokuapp.com/">here</a> it is!
-I followed a tutorial from <a href="https://www.youtube.com/channel/UCRLEADhMcb8WUdnQ5_Alk7g">code drip</a> to help me start this.
-Since this was supposed to be a simple test of my skills, I didn&rsquo;t want to pay for a hosting solution. I checked digital ocean, amazon web services and google cloud platform. I also tried firebase, but it also seemed an overkill.
-So, I went with heroku!
-Initially I had an express app running for the api where it would only fetch the data from the redis database, a worker with a scheduled cron job and the react server for the frontend.
-In heroku I couldn&rsquo;t find a way to expose both ports, so I went with a single express app for the frontend and for the api.
-I had to tweak the package.json files a lot to get to where the app is right now, but I like the final result!
-The source code can be found <a href="https://github.com/antonioplacerda/full_stack_node_react_redis">here</a></p>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>2021 Q3 Goals</h2>
+  </header>
+  <section class="entry-content">
+    <p>OK, now it’s time to define some priorities. Having dreams is great, but that doesn’t get anything done. And also, having them in kind of a blob is also no good!
+I know I want to improve my technical skills to feel more comfortable taking on any new challenge that I might face. I know I want to learn more about blockchains and smart contracts. I know I want to improve my trading skills....</p>
+  </section>
+  <footer class="entry-footer">July 13, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Antonio P Lacerda</footer>
+  <a class="entry-link" aria-label="post link to 2021 Q3 Goals" href="https://antonioplacerda.github.io/posts/20210713_q3goals/"></a>
+</article>
 
-		</section>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>2021 Dreams</h2>
+  </header>
+  <section class="entry-content">
+    <p>A full year is too long to set goals. It’s a bettter timespan to set dreams, that will get translated into goals for each quarter, that should get translated into projects and then into concrete small actions. I will try to do that, since I’ve spent these past quarters dreaming about these goals!
+But, for now, here are my dreams for 2021:
+ Create a simple DCA trading bot for DeFi; Start a “strategy” journal, where I will implement several trading strategies and backtest them; Improve my algorithms and data structures knowledge; Improve my system design skills; Improve my pattern recognition for trading skills; Create a simple DApp in the ethereum blockchain; Create a bot to automatically claim rewards from farms and swap them; Create an explorer sniffer, that will fetch all transactions for the supplied address; Create a portfolio app, that will get the records from several exchanges; Add the explorer info to the portfolio app; Create an arbitrageur bot for CEX; Create an arbitrageur bot for DEX; Improve my go skills;  </p>
+  </section>
+  <footer class="entry-footer">July 12, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Antonio P Lacerda</footer>
+  <a class="entry-link" aria-label="post link to 2021 Dreams" href="https://antonioplacerda.github.io/posts/20210712_2021dreams/"></a>
+</article>
 
-		<div class="post-tags">
-			
-		</div>
-	</article>
-</main>
-<footer>
-<hr><a class="soc" href="https://github.com/antonioplacerda" title="GitHub"><i data-feather="github"></i></a>|<a class="soc" href="https://twitter.com/_antoniolacerda/" title="Twitter"><i data-feather="twitter"></i></a>| 2021  © Antonio P. Lacerda |  Built with <a href="https://gohugo.io">Hugo</a> - <a href="https://github.com/athul/archie">Archie</a>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Docker Commands</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
+General  docker version - if any error here, docker is probably not running. If on linux, do a sudo docker info - a lot more info about the docker installation  Containers  docker container run IMAGE - first it gets an image from local machine, if it doesn’t find one, tries to get one from docker hub....</p>
+  </section>
+  <footer class="entry-footer">October 24, 2019&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Antonio P Lacerda</footer>
+  <a class="entry-link" aria-label="post link to Docker Commands" href="https://antonioplacerda.github.io/posts/20191024-docker-commands/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Remove Diacritics</h2>
+  </header>
+  <section class="entry-content">
+    <p>If you ever faced the terror of finding a diacritic that messed up some of your regex, or some awesome script you’ve written, then we are on the same boat. Although I love my language, portuguese, messing up with scripts is never a good way to make friends, so I often need to remove those annoying characters from sentences and every time I need to do so I go surf the web for the same answer....</p>
+  </section>
+  <footer class="entry-footer">July 6, 2019&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Antonio P Lacerda</footer>
+  <a class="entry-link" aria-label="post link to Remove Diacritics" href="https://antonioplacerda.github.io/posts/20190706-diacritics/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Hello, World</h2>
+  </header>
+  <section class="entry-content">
+    <p>This is my first post. This is the beginning of something amazing, I hope. I’ve been wanting to give back to the community for a long time but didn’t know how to. Well, this is how I plan to start! I want to have a place where I put everything I learn, that is accessible everywhere and to everyone. No better place than here. I also wanted to create something hackable but not fully from scratch, since it would take longer than I’d like....</p>
+  </section>
+  <footer class="entry-footer">October 16, 2018&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Antonio P Lacerda</footer>
+  <a class="entry-link" aria-label="post link to Hello, World" href="https://antonioplacerda.github.io/posts/20181016-hello/"></a>
+</article>
+    </main>
+    <footer class="footer">
+    <span>&copy; 2021 <a href="https://antonioplacerda.github.io/">antonio p lacerda</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
 
 <script>
-      feather.replace()
-</script></div>
-    </body>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>

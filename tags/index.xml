@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on antonio p lacerda</title>
     <link>https://antonioplacerda.github.io/tags/</link>
     <description>Recent content in Tags on antonio p lacerda</description>
+    <image>
+      <url>https://antonioplacerda.github.io/papermod-cover.png</url>
+      <link>https://antonioplacerda.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© Antonio P. Lacerda</copyright>
-    <lastBuildDate>Tue, 11 Feb 2020 06:45:53 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jul 2021 23:54:17 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>goals</title>
+      <link>https://antonioplacerda.github.io/tags/goals/</link>
+      <pubDate>Tue, 13 Jul 2021 23:54:17 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/tags/goals/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://antonioplacerda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>personal</title>
+      <link>https://antonioplacerda.github.io/tags/personal/</link>
+      <pubDate>Tue, 13 Jul 2021 23:54:17 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/tags/personal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>heroku</title>
@@ -36,6 +52,33 @@
       <pubDate>Tue, 11 Feb 2020 06:45:53 +0100</pubDate>
       
       <guid>https://antonioplacerda.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://antonioplacerda.github.io/tags/docker/</link>
+      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://antonioplacerda.github.io/tags/tips/</link>
+      <pubDate>Thu, 24 Oct 2019 22:24:31 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://antonioplacerda.github.io/tags/powershell/</link>
+      <pubDate>Sat, 06 Jul 2019 09:45:53 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/tags/powershell/</guid>
       <description></description>
     </item>
     
