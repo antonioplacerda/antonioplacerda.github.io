@@ -9,7 +9,19 @@
       <link>https://antonioplacerda.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Jul 2021 23:54:17 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jul 2021 00:08:43 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating my first DApp</title>
+      <link>https://antonioplacerda.github.io/posts/20210714_first_dapp/</link>
+      <pubDate>Thu, 15 Jul 2021 00:08:43 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20210714_first_dapp/</guid>
+      <description>It&amp;rsquo;s time to get my Q3 goals going and I&amp;rsquo;ve decided to go with the DApp!
+I will do this in 4 steps:
+ Create a lottery contract using the remix platform; Create a frontend to interact with the contract, that should be connected to metamask; Deploy the contract to a testnet like Rinkeby; Maybe deploy the app to heroku.  So, the contract should be able to:
+ Allow players to enter the lottery with a fixed amount of ether, like 0.</description>
+    </item>
+    
     <item>
       <title>2021 Q3 Goals</title>
       <link>https://antonioplacerda.github.io/posts/20210713_q3goals/</link>
