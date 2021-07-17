@@ -9,7 +9,21 @@
       <link>https://antonioplacerda.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Jul 2021 00:08:43 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 21:37:08 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLID principles: Single Responsibility</title>
+      <link>https://antonioplacerda.github.io/posts/20210716_solid_principles_01/</link>
+      <pubDate>Fri, 16 Jul 2021 21:37:08 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20210716_solid_principles_01/</guid>
+      <description>I will try to explain a bit the SOLID principles, that should be engraved in every software engineer mind!
+This one is about the Single Responsibility Principle, yes it is the S in SOLID! (shocking, I know!)
+This principle states that:
+ Every software component should have one and only one responsibility
+ In order to better understand this principle, we need to talk about cohesion and coupling:
+ Cohesion is the degree to which the various parts of a software component are related; Coupling is defined as the level of inter dependency between various software components.</description>
+    </item>
+    
     <item>
       <title>Creating my first DApp</title>
       <link>https://antonioplacerda.github.io/posts/20210714_first_dapp/</link>

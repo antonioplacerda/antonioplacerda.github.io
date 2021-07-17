@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blockchain on antonio p lacerda</title>
+    <link>https://antonioplacerda.github.io/tags/blockchain/</link>
+    <description>Recent content in blockchain on antonio p lacerda</description>
+    <image>
+      <url>https://antonioplacerda.github.io/papermod-cover.png</url>
+      <link>https://antonioplacerda.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Jul 2021 00:08:43 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating my first DApp</title>
+      <link>https://antonioplacerda.github.io/posts/20210714_first_dapp/</link>
+      <pubDate>Thu, 15 Jul 2021 00:08:43 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20210714_first_dapp/</guid>
+      <description>It&amp;rsquo;s time to get my Q3 goals going and I&amp;rsquo;ve decided to go with the DApp!
+I will do this in 4 steps:
+ Create a lottery contract using the remix platform; Create a frontend to interact with the contract, that should be connected to metamask; Deploy the contract to a testnet like Rinkeby; Maybe deploy the app to heroku.  So, the contract should be able to:
+ Allow players to enter the lottery with a fixed amount of ether, like 0.</description>
+    </item>
+    
+  </channel>
+</rss>

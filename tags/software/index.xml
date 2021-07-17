@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>software on antonio p lacerda</title>
+    <link>https://antonioplacerda.github.io/tags/software/</link>
+    <description>Recent content in software on antonio p lacerda</description>
+    <image>
+      <url>https://antonioplacerda.github.io/papermod-cover.png</url>
+      <link>https://antonioplacerda.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 16 Jul 2021 21:37:08 +0100</lastBuildDate><atom:link href="https://antonioplacerda.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLID principles: Single Responsibility</title>
+      <link>https://antonioplacerda.github.io/posts/20210716_solid_principles_01/</link>
+      <pubDate>Fri, 16 Jul 2021 21:37:08 +0100</pubDate>
+      
+      <guid>https://antonioplacerda.github.io/posts/20210716_solid_principles_01/</guid>
+      <description>I will try to explain a bit the SOLID principles, that should be engraved in every software engineer mind!
+This one is about the Single Responsibility Principle, yes it is the S in SOLID! (shocking, I know!)
+This principle states that:
+ Every software component should have one and only one responsibility
+ In order to better understand this principle, we need to talk about cohesion and coupling:
+ Cohesion is the degree to which the various parts of a software component are related; Coupling is defined as the level of inter dependency between various software components.</description>
+    </item>
+    
+  </channel>
+</rss>
